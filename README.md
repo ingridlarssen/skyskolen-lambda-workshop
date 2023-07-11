@@ -12,7 +12,7 @@ Vi kommer også til å ta i bruk et rammeverk som heter serverless. Dette rammev
 Målet med workshopen er ikke å bli ferdig; det er å teste ut og bli litt kjent med sky! Ta det i ditt tempo og spør om hjelp om du trenger det.
 
 ### Prereqs
-1. Installer aws cli (MacOS: `brew install awscli`).
+1. Installer aws cli (MacOS: `HOMEBREW_NO_AUTO_UPDATE=1 brew install awscli`). HOMEBREW_NO_AUTO_UPDATE=1 gjør slik at homebrew ikke oppdaterer alle de andre pakkene dine, det kan ta en del tid hvis det er lenge siden sist 😊
 2. Kjør kommandoen `aws configure`. 
 
 3. Du får beskjed om å legge inn følgende verdier én etter én:
