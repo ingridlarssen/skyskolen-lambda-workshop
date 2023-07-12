@@ -113,7 +113,7 @@ For å opprette en bøtte bruker du kommandoen `aws s3 mb s3://<mitt navn på mi
 2. La oss deretter skrive om funksjonen vår i handler.py til å liste alle s3-bøttene som eksisterer i regionen vi jobber i på AWS! <br /> Til det skal vi bruke boto3. Et grunnlag for å få til dette finner du [her for python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-example-creating-buckets.html#list-existing-buckets). 
 
 ℹ️ Endring av funksjonsnavn <br />
-I en lambda, så vil det alltid være en funksjon som tilsvarer det man kaller "main"-funksjon i de fleste språk. Dette er en funksjon som er startpunktet for koden din. Når du kjørte deploy-kommandoen, så ble din main-funksjon satt til å være `hello`. Det betyr at dersom du vil endre dette funksjonsnavnet, så må du også navnet på funksjonen som skal være din main-funksjon. Dette kan gjøres i serverless.yml.
+I en lambda, så vil det alltid være en funksjon som tilsvarer det man kaller "main"-funksjon i de fleste språk. Dette er en funksjon som er startpunktet for koden din. Når du kjørte deploy-kommandoen, så ble din main-funksjon satt til å være `hello`. Det betyr at dersom du vil endre dette funksjonsnavnet, så må du også endre navnet på funksjonen som skal være din main-funksjon. Dette kan gjøres i serverless.yml.
 
 ℹ️ En Lambda-function må alltid ta inn parameterne `(event, context)`, eks: `def hello(event, context)`. Du trenger ikke bruke event eller context i funksjonen din, men lambda-funksjonen din må ta disse inn for å kjøre.
 
