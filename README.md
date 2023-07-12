@@ -134,6 +134,8 @@ Hvis du kjører denne i lambdaen vil du se at den feiler med et tilgangsproblem.
 💡 Hvis du kjører python og prøver å kjøre lambdaen lokalt kan det hende du må installere boto3. 
 For å løse følgende feilmelding ``` ModuleNotFoundError: No module named 'boto3' ```  kjør ``` pip3 install boto3 ``` i terminalen.
 
+Hvis du fortsatt får samme feilmelding, prøv å oppdatere til [nyeste Python-versjon](https://www.python.org/downloads/) for deretter å kjøre ``` pip3 install boto3 ``` på nytt.
+
 <br>
 
 💡 Hvis du får feilmeldingen `NameError: name 'boto3' is not defined` så kan du sjekke om du har importert boto3 i handler.py-filen din. 
