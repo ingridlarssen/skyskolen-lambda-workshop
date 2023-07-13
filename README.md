@@ -220,4 +220,6 @@ Lag en cron-trigger så lambdaen kjører hvert minutt. Test det!
 
 Nyttig lenke: https://www.serverless.com/blog/cron-jobs-on-aws
 
+## Er du ferdig med arbeidet?
+Dersom du er ferdig med alt og ikke vil gjøre noe mer, så kan du kjøre kommandoen `serverless remove`. Dette sparer arrangørene for en del opprydning etterpå 🤗
 
